@@ -50,7 +50,7 @@ function App() {
       });
       // const resData = await executeMoveCall(data);
       console.log('executeMoveCall success', resData);
-      alert('Congratulation you minted First Skull Test NFT(see response in the console)');
+      alert('Congrats!! You minted First Skull Test NFT');
     } catch (e) {
       console.error('executeMoveCall failed', e);
       alert('executeMoveCall failed (see response in the console)');
@@ -102,7 +102,7 @@ function App() {
           <img src="/bannnn.png" className="logo" alt="Skull"/>
         </a>
       </div>
-      <h1>SkullSui</h1>
+      <h1>Skull Sui </h1>
       <div className="card">
         <ConnectButton/>
 
