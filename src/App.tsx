@@ -37,7 +37,7 @@ function App() {
         typeArguments: [],
         arguments: [
           'Skull Sui',
-          'First skull is coming to sui',
+          'Skulls are emerging from the ground!',
           'https://gateway.pinata.cloud/ipfs/QmcsJtucGrzkup9cZp2N8vvTc9zxuQtV85z3g2Rs4YRLGX',
         ],
         gasBudget: 100000,
@@ -50,7 +50,7 @@ function App() {
       });
       // const resData = await executeMoveCall(data);
       console.log('executeMoveCall success', resData);
-      alert('executeMoveCall succeeded (see response in the console)');
+      alert('Congratulation you minted First Skull Test NFT(see response in the console)');
     } catch (e) {
       console.error('executeMoveCall failed', e);
       alert('executeMoveCall failed (see response in the console)');
