@@ -99,7 +99,7 @@ function App() {
     <div className="App">
       <div>
         <a href="https://twitter.com/Skullsui" target="_blank">
-          <img src="/public/bannnn.png" className="logo" alt="Skull"/>
+          <img src="/bannnn.png" className="logo" alt="Skull"/>
         </a>
       </div>
       <h1>SkullSui</h1>
