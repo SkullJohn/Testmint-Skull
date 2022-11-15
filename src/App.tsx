@@ -1,5 +1,3 @@
-import {useState} from 'react'
-import suietLogo from './assets/suiet-logo.svg'
 import './App.css'
 import {ConnectButton, useAccountBalance, useWallet} from "@suiet/wallet-kit";
 import '@suiet/wallet-kit/style.css';
@@ -49,11 +47,11 @@ function App() {
         }
       });
       // const resData = await executeMoveCall(data);
-      console.log('executeMoveCall success', resData);
+      console.log('executeMoveCall success', /*resData*/);
       alert('Congrats!! You minted First Skull Test NFT');
     } catch (e) {
-      console.error('executeMoveCall failed', e);
-      alert('executeMoveCall failed (see response in the console)');
+      console.error('executeMoveCall failed'/*, e*/);
+      alert('Sorry you failed , try again');
     }
   }
 
