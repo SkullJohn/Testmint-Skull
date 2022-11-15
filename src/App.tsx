@@ -47,10 +47,10 @@ function App() {
         }
       });
       // const resData = await executeMoveCall(data);
-      console.log('executeMoveCall success', /*resData*/);
+      console.log('executeMoveCall success', resData);
       alert('Congrats!! You minted First Skull Test NFT');
     } catch (e) {
-      console.error('executeMoveCall failed'/*, e*/);
+      console.error('executeMoveCall failed', e);
       alert('Sorry you failed , try again');
     }
   }
