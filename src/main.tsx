@@ -26,6 +26,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       SuietWallet,
       SuiWallet,
       EthosWallet,
+      
       // ...
     ]}>
     {/* or just leave it as default which contains all preset wallets */}

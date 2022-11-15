@@ -38,7 +38,7 @@ function App() {
           'Skulls are emerging from the ground!',
           'https://gateway.pinata.cloud/ipfs/QmcsJtucGrzkup9cZp2N8vvTc9zxuQtV85z3g2Rs4YRLGX',
         ],
-        gasBudget: 100000,
+        gasBudget: 10000,
       };
       const resData = await signAndExecuteTransaction({
         transaction: {
